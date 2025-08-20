@@ -35,7 +35,12 @@ Este proyecto es una aplicación web desarrollada con Django para gestionar encu
 
 ## Migraciones
 
-Ejecuta las migraciones para preparar la base de datos:
+Crea las migraciones:
+```powershell
+python manage.py makemigrations
+```
+
+Luego ejecuta las migraciones para preparar la base de datos:
 ```powershell
 python manage.py migrate
 ```
