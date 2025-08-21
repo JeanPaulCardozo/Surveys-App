@@ -1,4 +1,10 @@
+{% load static %}
+
+<link rel="stylesheet" href="{% static 'polls/base.css' %}" />
+<link rel="stylesheet" href="{% static 'polls/detail.css' %}" />
+
 <form action="{% url 'polls:vote' question.id %}" method="post">
+    <a href="{% url 'polls:index' %}" class="btn-back">⬅ Back to List Questions</a>
     {% csrf_token %}
     <fieldset>
         <legend>

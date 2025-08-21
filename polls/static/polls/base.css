@@ -1,0 +1,10 @@
+/* ===== Estilos globales ===== */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f4f6f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: white url("images/background.jpg") no-repeat;
+    background-size: cover;
+}

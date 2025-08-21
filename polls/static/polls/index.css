@@ -1,0 +1,42 @@
+/* Contenedor principal */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 2rem auto;
+    max-width: 600px;
+}
+
+/* Cada ítem (pregunta) */
+li {
+    margin: 1rem 0;
+}
+
+/* Estilos para los links */
+a {
+    display: block;
+    padding: 1rem 1.5rem;
+    background: white;
+    border-radius: 12px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Efecto hover */
+a:hover {
+    background: #4f46e5;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(79, 70, 229, 0.3);
+}
+
+/* Mensaje cuando no hay encuestas */
+p {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #666;
+    margin-top: 3rem;
+}
